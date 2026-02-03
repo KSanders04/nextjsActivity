@@ -10,7 +10,7 @@ export default function Post({ name }: Props) {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: [{ params: { name: "John" } }, { params: { name: "David" } }],
+    paths: [{ params: { name: "Hello" } }, { params: { name: "World" } }],
     fallback: false,
   };
 };

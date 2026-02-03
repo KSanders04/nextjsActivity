@@ -17,7 +17,7 @@ export default function Home() {
         <Image src="/next.svg" width={100} height={100} alt="Next Logo" />
         <nav>
           <Link href="/ssr">SSR Page</Link> | <Link href="/ssg">SSG Page</Link>{" "}
-          | <Link href="/post/John">Dynamic Page</Link>
+          | <Link href="/post/Hello">Dynamic Page</Link> | <Link href="/api/data">Api Page</Link>
         </nav>
       </div>
     </>

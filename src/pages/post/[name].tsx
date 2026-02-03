@@ -5,7 +5,7 @@ interface Props {
 }
 
 export default function Post({ name }: Props) {
-  return <div>Dynamic Name: {name}</div>;
+  return <div>SSG Dynamic: {name}</div>;
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
